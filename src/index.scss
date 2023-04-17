@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+$primary: #F2889b;
+$secondary: #f28444;
+$light: #fff8ee;
+$info: #9fbfa4;
+
+//Changing Bootstrap variables.
+$primary: #7A9CC6;
+$secondary: #BDE4A7;
+$light: #FFFd98;
+$info: #496b50;
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+:root {
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.2vw;
+  }
+
+  @include media-breakpoint-only(lg) {
+    font-size: 2vw;
+  }
+  
+  @include media-breakpoint-only(md) {
+    font-size: 2.5vw;
+  }
+  @include media-breakpoint-down(md) {
+    font-size: 3.5vw;
+  }
+}
+
+
+#hero,
+#projects {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0%;
+  margin-bottom: 100;
+}
+
+#hero {
+  background-image: url("images/janell_brown_hero_image.jpg");
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  border-bottom: 7px solid;
+  border-image-source: url('./images/Pencil_Border.png');
+  border-image-slice: 2 2 2 2;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat repeat;
+  margin-bottom:100px;
+}
+
+h1 {
+  font-size: 500%;
+}
+
+#hero-info img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+
+
+#project-carousel button {
+  width: 1%;
+  border: none;
+
+}
+
+.btn {
+  border: 7px solid;
+  border-radius: 0;
+  border-image-source: url('./images/pencil_border_square.PNG');
+  border-image-slice: 27;
+  border-image-repeat: repeat repeat;
+}
+
+
+body {
+
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Pangolin', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+}
+
+
+nav {
+  border-bottom: 2px solid;
+  border-image-source: url('./images/Pencil_Border.png');
+  border-image-slice: 2 2 2 2;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat repeat;
+}
+
+#projects figure img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#toolkit img {
+  padding: 5%;
+  margin: 1%;
+}
+
+#toolkit,
+#about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#contact{
+  min-width:75%;
+}
+
+#project-container {
+  display: block;
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    align-items:center;
+  }
+
+}
+
+#project-info {
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 0%;
+  }
+}
+
+
+h3,figcaption {
+  color: $info;
+}
