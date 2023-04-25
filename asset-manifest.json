@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c9d98d8.css",
-    "main.js": "/static/js/main.f66d3559.js",
+    "main.js": "/static/js/main.150a82e3.js",
     "static/media/janell_brown_hero_image.jpg": "/static/media/janell_brown_hero_image.2bae0f79c1f53180da22.jpg",
     "static/media/our_song.png": "/static/media/our_song.ab803f76f49c8ba8f931.png",
     "static/media/Janell_Brown_img.png": "/static/media/Janell_Brown_img.de716a2fd5cef5434d11.png",
@@ -22,10 +22,10 @@
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "main.6c9d98d8.css.map": "/static/css/main.6c9d98d8.css.map",
-    "main.f66d3559.js.map": "/static/js/main.f66d3559.js.map"
+    "main.150a82e3.js.map": "/static/js/main.150a82e3.js.map"
   },
   "entrypoints": [
     "static/css/main.6c9d98d8.css",
-    "static/js/main.f66d3559.js"
+    "static/js/main.150a82e3.js"
   ]
 }
