@@ -15,6 +15,7 @@ export default class Projects extends Component {
 
 
   constructor(props) {
+    
     super(props);
     //Refsssssssssssssssssssssssssssss
     this.containerRef = React.createRef(null)
@@ -81,17 +82,17 @@ export default class Projects extends Component {
 
   ]
 
-  componentDidMount() {//Set  
+  componentDidMount() {//Setting up SrollTrigger.
 
     gsap.to(this.containerRef.current, { duration: 3, opacity: 1, x: 0 })
     gsap.registerPlugin(ScrollTrigger)
 
-    this.componentDidUpdate()
+    this.componentDidUpdate()  
 
   }
   componentDidUpdate() {
   
-    if (this.state.showAll) {
+    if (this.state.showAll) { //These are all the animations for each project in list view.
 
       
       gsap.fromTo(this.firstProjectRef.current, { x: -200 }, {
@@ -132,11 +133,11 @@ export default class Projects extends Component {
       })
 
     }
-    else {
+    else { //The animation for a collapsed view.
       ScrollTrigger.refresh()
       gsap.set(this.containerRef.current,{x:0})
       gsap.to(this.containerRef.current, {
-        duration: 0.5, opacity: 1, x: 0
+        duration: 0.5, opacity: 1,
       })
     }
 
@@ -167,7 +168,7 @@ export default class Projects extends Component {
     }
   }
 
-  //Function for expanding button.
+  //Animations for the button.
 
   button_onMouseEnter({ currentTarget }) {
     gsap.to(currentTarget, {
@@ -183,8 +184,6 @@ export default class Projects extends Component {
   }
 
   //The portfolio projects.
- 
-
   render() {
     return (
       <div id="projects" className="p-2">
@@ -192,11 +191,11 @@ export default class Projects extends Component {
         <button id="carousel-button" className="btn btn-secondary" onClick={() => {
           gsap.set(this.containerRef.current, { opacity: 0 })
           this.setState({ showAll: !this.state.showAll })
-        }} onMouseEnter={this.button_onMouseEnter} onMouseOut={this.button_onMouseOut}> {this.state.showAll ? "Collapse" : "Expand"}</button>
+        }} onMouseEnter={this.button_onMouseEnter} onMouseOut={this.button_onMouseOut}> {this.state.showAll ? "Collapse" : "List View"}</button>
 
         {this.state.showAll ?
 
-          //The projects in expanded view.  Shows all of them at once.
+          //The projects in list view.  Shows all of them at once.
           <div className="d-flex flex-column" >
             <ProjContainer ref={this.firstProjectRef} style={{ opacity: 0 }} project={this.projects[0]} />
             <ProjContainer ref={this.secondProjectRef} style={{ opacity: 0 }} project={this.projects[1]} />

@@ -22,11 +22,10 @@ const Toolkit = () => {
 
     useEffect(() => {
 
-        setTimeout(function () {
-
-
+        setTimeout(function () { 
+            //The ScrollTrigger's animations will begin to early if ScrollTrigger loads too fast.
+            //To fix the problem ScrollTrigger will load with a slight delay.
             gsap.registerPlugin(ScrollTrigger)
-
             gsap.to(toolkit.current, {
                 scrollTrigger: {
                     trigger: toolkit.current,
@@ -35,9 +34,6 @@ const Toolkit = () => {
                 opacity: 1,
                 duration: 1,
             })
-
-
-
 
         }, 1000);
 

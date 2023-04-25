@@ -13,7 +13,7 @@ const ProjContainer = forwardRef((props, ref) => {
         <figcaption className="text-center">Main Tools:  {props.project.tools}</figcaption>
       </figure>
 
-      {/**The project's info */}
+      {/*The project's info */}
       <div id="project-info" className="p-1 mx-3">
         <Buttons code={props.project.code} url={props.project.url} />
         <article>

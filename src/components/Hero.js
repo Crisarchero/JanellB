@@ -36,11 +36,6 @@ const HeroInfo = () => {
 
       <p>I'm a web dev student!</p>
 
-      <div>
-
-      </div>
-     
-
       <a className = "me-2" href="https://github.com/Crisarchero"><img src={gitHub} alt="Github" title = "Github" /></a>
 
      <a className = "mx-2" href="https://www.linkedin.com/in/janell-brown-b5895026a/"><img src={linkedIn} alt="LinkedIn" title = "LinkedIn"/></a>

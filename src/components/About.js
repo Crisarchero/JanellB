@@ -10,6 +10,8 @@ const About = () => {
   let about = useRef(null)
   useEffect(() => {
     setTimeout(() => {
+        //The ScrollTrigger's animations will begin to early if ScrollTrigger loads too fast.
+        //To fix the problem ScrollTrigger will load with a slight delay.
       gsap.registerPlugin(ScrollTrigger)
       gsap.to(about.current, {
         scrollTrigger: {

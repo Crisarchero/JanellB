@@ -2,6 +2,7 @@ import React from 'react'
 import gsap from 'gsap'
 
 const Buttons = (props) => {
+    //Various animations for the button. 
     function code_button_mouseEnter({ currentTarget }) {
         
             gsap.to(currentTarget, {
