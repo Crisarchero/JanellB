@@ -27,8 +27,8 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbar-collapse">
                 <ul className="nav justify-content-between align-items-center w-100">
                     <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                     <li className="nav-item"><a className="nav-link" href="#toolkit">Toolkit</a></li>
+                   <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                     <li className="nav-item"><a className="nav-link" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
