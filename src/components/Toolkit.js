@@ -14,8 +14,8 @@ import Php from '../images/icons/icons8-php-logo.svg'
 import Bootstrap from '../images/icons/icons8-bootstrap.svg'
 import Python from '../images/icons/icons8-python.svg'
 import CSharp from '../images/icons/icons8-c-sharp-logo.svg'
-
-
+import SASS from '../images/icons/icons8-sass.svg'
+import jQuery from '../images/icons/icons8-jquery.svg'
 
 const Toolkit = () => {
     let toolkit = useRef(null)
@@ -58,24 +58,24 @@ const Toolkit = () => {
                 <article className="w-md-50 m-2">
                     <h3>Most Used</h3>
 
-
-                    <img className title = "HTML" src={HTML5} alt="HTML"></img>
-                    <img title = "CSS" src={CSS3} alt="CSS"></img>
-                    <img title = "JavaScript" src={JS} alt="JavaScript"></img>
-                    <img title = "React" src={React} alt="React"></img>
-                    <img title = "NodeJS" src={Node} alt="NodeJS"></img>
-                    <img title = "Bootstrap" src={Bootstrap} alt="Bootstrap"></img>
-
+                   
+                    <img className title = "HTML" src={HTML5} alt="HTML"/>
+                    <img title = "CSS" src={CSS3} alt="CSS"/>
+                    <img title = "JavaScript" src={JS} alt="JavaScript"/>
+                    <img title = "React" src={React} alt="React"/>
+                    <img title = "NodeJS" src={Node} alt="NodeJS"/>
+                    <img title = "Bootstrap" src={Bootstrap} alt="Bootstrap"/>
+                    <img title = "SCSS" src = {SASS} alt = "SASS"/>
 
                 </article>
                 <article className = "m-2">
                     <h3>Other</h3>
-
-                    <img title = "MongoDB" src={Mongodb} alt="MongoDB"></img>
-                    <img title = "MySQL" src={MySQL} alt="MySQL"></img>
-                    <img title = "C#" src={CSharp} alt="C#"></img>
-                    <img title = "PHP" src={Php} alt="PHP"></img>
-                    <img title = "Python" src={Python} alt="Python"></img>
+                    <img title = "jQuery" src = {jQuery} alt = "jQuery"/>
+                    <img title = "MongoDB" src={Mongodb} alt="MongoDB"/>
+                    <img title = "MySQL" src={MySQL} alt="MySQL"/>
+                    <img title = "C#" src={CSharp} alt="C#"/>
+                    <img title = "PHP" src={Php} alt="PHP"/>
+                    <img title = "Python" src={Python} alt="Python"/>
                 </article>
             </div>
         </div>

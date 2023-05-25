@@ -30,10 +30,10 @@ const About = () => {
       <h2 className="border-bottom border-5 border-primary">Some Basic Stuff About Me...</h2>
       <div className = "d-flex flex-md-row flex-column align-items-center p-5">
 
-        <img className="border rounded w-50" src={Janell_img} alt=""></img>
+      
         <article className = "p-5">
           <p>
-            I'm a student at Collin College who's set to graduate this year with honors and an associate degree in Web and Mobile Development.
+            I'm a recent graduate from Collin College, who graduated with honors and an associate degree in Web and Mobile Development.
             I first discovered web development in a highschool class, and I've diven deeper into its world over the past couple of years.
             It's far more complex than I realized, but it's also fun with plenty of creative possibilities!
             My hope is to work in web development and I'm very excited to learn more!

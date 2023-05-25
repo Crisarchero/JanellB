@@ -63,7 +63,6 @@ h1,h2{
 }
 
 
-
 #project-carousel button {
   width: 1%;
   border: none;
@@ -80,7 +79,6 @@ h1,h2{
 
 
 body {
-
   margin: 0;
   box-sizing: border-box;
   font-family: 'Pangolin', cursive;
@@ -116,13 +114,16 @@ nav {
   margin-bottom: 100px;
 }
 
+#about{
+  font-size:1.2rem;
+}
+
 #contact{
   min-width:75%;
 }
 
 #project-container {
   display: block;
-
   @include media-breakpoint-up(xl) {
     display: flex;
     align-items:center;

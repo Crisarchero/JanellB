@@ -10,6 +10,7 @@ import activity_img from '../images/activity_generator.png'
 import mynotes_img from '../images/mynotes.png'
 import ourSong_img from '../images/our_song.png'
 import r_p_s_img from '../images/rps.png'
+import landing_pg_img from '../images/landing_page.png'
 
 export default class Projects extends Component {
 
@@ -45,6 +46,15 @@ export default class Projects extends Component {
    ,
     url: "https://main--mynotebooksapp.netlify.app",
     code: "https://github.com/Crisarchero/MyNotes",
+  },{
+    title: "Landing Page",
+    img: landing_pg_img,
+    tools: "HTML, SCSS, jQuery",
+    description: "A landing page for a fictional vacation planning service." 
+    +"  It is just the landing page and not an entire site."
+    +"  I used HTML, SCSS and a little bit of jQuery.",
+    url: "https://crisarchero.github.io/Landing_Page/",
+    code: "https://github.com/Crisarchero/Landing_Page",
   },
   {
     title: "Rock Paper Scissors",
@@ -58,16 +68,7 @@ export default class Projects extends Component {
     url: "https://crisarchero.github.io/rock_paper_scissors/",
     code: "https://github.com/Crisarchero/rock_paper_scissors",
   },
-  {
-    title: "OurSong",
-    img: ourSong_img,
-    tools: "React, Bootstrap, SCSS, HTML/CSS",
-    description: "A landing page for a fictional music store." 
-    +"This is a proof of concept, so none of the links actually work and are just for show."
-    +"  I wanted to do a more creative kind of landing page, so the style might be a little unconventional.",
-    url: "https://crisarchero.github.io/our-song/",
-    code: "https://github.com/Crisarchero/our-song",
-  },
+  
   {
     title: "Activity Generator",
     img: activity_img,
