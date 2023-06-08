@@ -16,7 +16,8 @@ import Python from '../images/icons/icons8-python.svg'
 import CSharp from '../images/icons/icons8-c-sharp-logo.svg'
 import SASS from '../images/icons/icons8-sass.svg'
 import jQuery from '../images/icons/icons8-jquery.svg'
-
+import dotNet from '../images/icons/icons8-.net-framework.svg'
+import WordPress from '../images/icons/icons8-wordpress.svg'
 const Toolkit = () => {
     let toolkit = useRef(null)
 
@@ -51,10 +52,14 @@ const Toolkit = () => {
 
     return (
         <div id="toolkit" style={{ opacity: 0 }} ref={toolkit}>
-            <h2>I Have Experience With...</h2>
-
+            <h2 class ="mx-1">What I Have Experience With</h2>
+         
+            <p className = "px-md-5 my-5 mx-sm-2 text-center ">I've used some technologies more than others.  The technologies that I'm most confident with are listed
+            in the 'skills' section of my resume. Icons from <a href = "https://icons8.com/">Icons 8</a>.</p>
+           
+           
             <div className="d-md-flex justify-content-between p-md-5">
-
+                
                 <article className="w-md-50 m-2">
                     <h3>Most Used</h3>
 
@@ -74,10 +79,15 @@ const Toolkit = () => {
                     <img title = "MongoDB" src={Mongodb} alt="MongoDB"/>
                     <img title = "MySQL" src={MySQL} alt="MySQL"/>
                     <img title = "C#" src={CSharp} alt="C#"/>
+                    <img title = ".Net / .Net Core/ ASP.Net Core" src={dotNet} alt="dotNet/dotNet Core/ASP dotNet Core"/>
                     <img title = "PHP" src={Php} alt="PHP"/>
                     <img title = "Python" src={Python} alt="Python"/>
+                    <img title = "WordPress" src={WordPress} alt="WordPress"/>
                 </article>
             </div>
+
+         
+            
         </div>
 
     )

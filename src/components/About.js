@@ -27,7 +27,7 @@ const About = () => {
   }, [])
   return (
     <div id="about" style={{ opacity: 0 }} ref={about}>
-      <h2 className="border-bottom border-5 border-primary">Some Basic Stuff About Me...</h2>
+      <h2 className="border-bottom border-5 border-primary px-1">Some Basic Stuff About Me...</h2>
       <div className = "d-flex flex-md-row flex-column align-items-center p-5">
 
       

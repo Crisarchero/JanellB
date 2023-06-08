@@ -34,7 +34,7 @@ const HeroInfo = () => {
     <article id="hero-info" className="p-5">
       <h1 className="">Welcome!</h1>
 
-      <p>I'm a junior web developer!</p>
+      <p>Location: Josephine, TX</p>
 
       <a className = "me-2" href="https://github.com/Crisarchero"><img src={gitHub} alt="Github" title = "Github" /></a>
 
