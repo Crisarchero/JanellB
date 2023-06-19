@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d4066e9f.css",
-    "main.js": "/static/js/main.6e0b7985.js",
+    "main.js": "/static/js/main.699dbf26.js",
     "static/media/landing_page.png": "/static/media/landing_page.4afce0fe7ca1364c7bf9.png",
     "static/media/janell_brown_hero_image.jpg": "/static/media/janell_brown_hero_image.2bae0f79c1f53180da22.jpg",
     "static/media/our_song.png": "/static/media/our_song.ab803f76f49c8ba8f931.png",
@@ -27,10 +27,10 @@
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "main.d4066e9f.css.map": "/static/css/main.d4066e9f.css.map",
-    "main.6e0b7985.js.map": "/static/js/main.6e0b7985.js.map"
+    "main.699dbf26.js.map": "/static/js/main.699dbf26.js.map"
   },
   "entrypoints": [
     "static/css/main.d4066e9f.css",
-    "static/js/main.6e0b7985.js"
+    "static/js/main.699dbf26.js"
   ]
 }
