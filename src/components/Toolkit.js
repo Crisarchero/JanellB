@@ -54,8 +54,7 @@ const Toolkit = () => {
         <div id="toolkit" style={{ opacity: 0 }} ref={toolkit}>
             <h2 class ="mx-1">What I Have Experience With</h2>
          
-            <p className = "px-md-5 my-5 mx-sm-2 text-center ">I've used some technologies more than others.  The technologies that I'm most confident with are listed
-            in the 'skills' section of my resume. Icons from <a href = "https://icons8.com/">Icons 8</a>.</p>
+            <p className = "px-md-5 my-5 mx-sm-2"> Icons from <a href = "https://icons8.com/">Icons 8</a>.</p>
            
            
             <div className="d-md-flex justify-content-between p-md-5">
